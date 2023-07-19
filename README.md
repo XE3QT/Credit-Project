@@ -23,6 +23,3 @@ VISA
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Acknowledgments
-The project was completed as part of the CS50's Introduction To Computer Science course offered by Harvard University.
