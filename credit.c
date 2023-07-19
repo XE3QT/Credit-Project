@@ -1,4 +1,3 @@
-#include <cs50.h>
 #include <stdio.h>
 
 int get_first_two_digits(long long int card_number);
@@ -7,7 +6,9 @@ int calculate_checksum(long long int card_number);
 
 int main(void)
 {
-    long long int credit_card_number = get_long("Number: ");
+    long long int credit_card_number;
+    printf("Number: ");
+    scanf("%lld", &credit_card_number);
     long long int card_number = credit_card_number;
 
     // Declare and initialize other variables
